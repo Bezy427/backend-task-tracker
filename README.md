@@ -1,17 +1,59 @@
-Task Tracking API
+<h2>BACKEND-TASK-TRACKER</h2>
 
-Overview 
+<h3>Overview</h3> 
+<p></p>backend-task-tracker is a comprehensive backend solution for managing tasks and task lists, built on Spring boot and PostgreSQL. It provides a scalable, modular architecture designed to facilitate efficient task organization, monitoring, and data management.</p>
 
-The Task Tracking API is a backend service for managing different tasks. It provides endpoints to manage tasks, creating tasking, highlighting list of tasks and task status(e.g, pending, viewed).
+<h3>Why backend-task-tracker?</h3>
 
-Technologies Used
-Java 17
-Spring Boot
-Spring Data JPA
-PostGRES
-Docker
-Postman
+<p>This project streamlines task management with a focus on reliability and scalability. The core features include:</p>
 
-Instructions
-Modify the application.properties file!
+ RESTful Endpoints: Create, retrieve, update, and delete tasks and task lists with ease.
+ Data Mapping: Seamless transformation between entities and DTOs for clean data flow.
+ Centralized Error Handling: Consistent and user-friendly error responses.
+ Containerized PostgreSQL: Simplified setup with Docker Compose for consistent development environments.
+ Spring Boot Foundation: Modular, maintainable, and ready for extension.
+ Task Progress & Status: Built-in support for task statuses and progress tracking.
 
+<h3>Getting Started:</h3
+
+<h3>Prerequisites:</h3>
+
+<h3>This project requires the following dependencies:</h3>
+
+ Programming Language: Java
+ Package Manager: Maven
+ Container Runtime: Docker
+
+Installation
+
+ Build backend-task-tracker from the source and install dependencies:
+ 
+ 1. Clone the repository:
+  
+  **https://github.com/Bezy427/backend-task-tracker.git**
+
+ 2. Navigate to the project directory:
+ 
+  **https://github.com/Bezy427/backend-task-tracker.git**
+
+ 3. Install the dependencies:
+
+  **docker**
+
+  Using **maven**
+ 
+  Usage:
+ 
+ <h4>Run the project with:</h4>
+ 
+  Using **docker**
+
+  Using **maven**
+
+ <h3>Testing</h3>
+
+  Backend-task-tracker uses the {test_framework} test framework. Run the test suite with:
+
+ Using <Link maven/>
+
+  mvn test
