@@ -45,15 +45,34 @@ Installation
   Usage:
  
  <h4>Run the project with:</h4>
- 
-  Using **docker**
 
+  <h4>Run Locally with Docker:</h4>
+ 
+  ```
+  bash
+  docker-compose up --build
+  ```
   Using **maven**
 
- <h3>Testing</h3>
+ <h3>API Testing using Postman:</h3>
 
-  Backend-task-tracker uses the {test_framework} test framework. Run the test suite with:
+  ```
+ GET /task-lists/{task_list_id}/tasks
+  ```
+  ```
+ GET /task-lists
+  ```
+  ```
+ POST /task-lists
+  ```
+  ```
+ GET /task-lists/{task_lists_id}
+  ```
 
-  Using:
+  ```
+ POST /task-lists/{task-list-id}
+  ```
 
-  mvn test
+  ```
+ PUT /task-lists/{task_list_id}
+  ```
