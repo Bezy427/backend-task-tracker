@@ -38,10 +38,10 @@ Installation
 
  3. Install the dependencies:
 
-  **docker**
+  Using **docker**
 
   Using **maven**
- 
+  
   Usage:
  
  <h4>Run the project with:</h4>
@@ -54,6 +54,6 @@ Installation
 
   Backend-task-tracker uses the {test_framework} test framework. Run the test suite with:
 
- Using <Link maven/>
+  Using:
 
   mvn test
